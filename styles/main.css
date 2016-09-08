@@ -1,3 +1,81 @@
 /*
   Main Stylesheet
 */
+* {
+  box-sizing: border-box;
+}
+
+.creditCard {
+  position: relative;
+  background-image: url(../assets/sf-giants2.png);
+  background-size: cover;
+  border-radius: 3%;
+  height: 250px;
+  padding: 20px;
+  width: 450px;
+}
+
+.creditCard__bank {
+  color: white
+}
+
+.creditCard__number,
+.creditCard__date,
+.creditCard__cvv,
+.creditCard__name {
+  margin-bottom: 10px
+}
+
+.creditCard__number {
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: 5px;
+  margin-top: 40px;
+  outline-color: red;
+  padding-left: 80px;
+  width: 100%;
+}
+
+.creditCard__number--valid {
+  outline-color: lightgreen;
+}
+
+.creditCard__date {
+  width: 60px;
+  margin-left: 50px;
+  margin-right: 137px;
+  padding-left: 5px;
+}
+.creditCard__cvv {
+  padding-left: 10px;
+  width: 40px;
+}
+.creditCard__name {
+  width: 70%;
+}
+
+.creditCard__validSpan {
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  left: 45px;
+  bottom: 65px;
+  text-align: right;
+}
+
+.creditCard__cvvSpan {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  left: 245px;
+  bottom: 73px;
+  text-align: right;
+}
+
+.creditCard__logo {
+  border-radius: 3px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 100px;
+}
